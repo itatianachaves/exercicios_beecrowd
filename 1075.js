@@ -15,11 +15,9 @@ let lines = conteudoArquivo.split(quebraLinhaWindows);
 let N = lines.shift();
 N = parseInt(N)
 
-let resultado = '';
 
 for (let i = 1; i <= 10000; i++) {
   if (i % N === 2) {
-    resultado += `${i}\n`;
+    console.log(i)
   }
 }
-console.log(resultado);

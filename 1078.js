@@ -15,6 +15,9 @@ let lines = conteudoArquivo.split(quebraLinhaWindows);
 let N = lines.shift();
 N = parseInt(N)
 
-for (let i = 2; i <= N; i += 2) {
-  console.log(i + '^2 = ' + i * i);
-}
+for (let i = 1; i <= 10; i++) {
+    const resultado = i * N;
+    console.log(i + ' x ' + N + ' = ' + resultado);
+  }
+
+ 
